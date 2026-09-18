@@ -1,0 +1,79 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+
+@font-face{
+    font-family:"Montserrat";
+    src:url(Montserrat/static/Montserrat-Bold.ttf);
+}
+
+body{
+    font-family:'Montserrat',sans-serif;
+    background:linear-gradient(135deg,rgb(200,172,243),rgb(58,120,207),rgb(50,50,203));
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    min-height:100vh;
+}
+
+main{
+    display:flex;
+    justify-content:center;
+}
+
+.contenedorweb{
+    margin-bottom:20px;
+    width:85vw;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,200px);
+    grid-auto-rows:200px;
+    gap:20px;
+    justify-content:center;
+}
+
+.contenedorweb a{
+    background-color:white;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    text-decoration:none;
+    align-content:center;
+    text-align:center;
+}
+
+.contenedorweb a:hover{
+    background-color:#f0f0f0;
+    box-shadow:5px 5px 15px rgba(0,0,0,0.35);
+    transform:scale(1.05);
+    transition-duration:0.5s;
+}
+
+.titulo{
+    padding:25px 0;
+}
+
+.titulo h1{
+    text-align:center;
+    margin:30px 0;
+    color:white;
+    font-size:clamp(25px,4vw,45px);
+    letter-spacing:2px;
+    text-shadow:0 3px 10px rgba(0,0,0,0.3);
+}
+
+footer{
+    width:85vw;
+    margin:20px auto 0;
+    padding:15px;
+    text-decoration:none;
+    align-content:center;
+    text-align:center;
+    border-top:3px solid;
+    border-color:rgb(28,63,71);
+    height:70px;
+    color:white;
+    text-shadow:0 2px 5px rgba(0,0,0,0.3);
+    font-size:14px;
+font-family:Sans serif;
+font-weight:100;
+}
