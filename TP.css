@@ -48,6 +48,13 @@ main{
     transition-duration:0.5s;
 }
 
+.contenedorweb a img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
 .titulo{
     padding:25px 0;
 }
