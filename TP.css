@@ -137,3 +137,27 @@ h3{  color: #d6a84f;
     transform-origin: 50% 50%;
 }
 
+.rabie-link{
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 16px;
+    line-height: 0;
+    box-shadow: 0 6px 20px rgba(0, 50, 25, 0.2);
+    transition: transform 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.rabie{
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 16px;
+    transition: transform 0.45s ease,
+    filter 0.45s ease;
+}
+
+.rabie-link:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 14px 30px rgba(0, 50, 25, 0.35);
+}
