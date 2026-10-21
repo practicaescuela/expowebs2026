@@ -161,3 +161,35 @@ h3{  color: #d6a84f;
     transform: translateY(-6px);
     box-shadow: 0 14px 30px rgba(0, 50, 25, 0.35);
 }
+
+.juli{
+    background:
+        linear-gradient(
+            rgba(188, 185, 190, 0.562),
+            rgba(44, 38, 136, 0.95)
+        );;
+    transition: 1s ease;
+    -webkit-mask-image: url("https://dl.dropbox.com/s/2kih8ox9q2czjeg/pngfind.com-kawaii-transparent-png-621355.png");
+    mask-image: url("https://dl.dropbox.com/s/2kih8ox9q2czjeg/pngfind.com-kawaii-transparent-png-621355.png");
+    -webkit-mask-size: 220%;
+    mask-size: 220%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+}
+
+.juli:hover {
+    transition: all 0.5s;
+    -webkit-mask-image: url("https://cdn.pixabay.com/photo/2014/04/03/00/38/spider-308942_1280.png");
+    mask-image: url("https://cdn.pixabay.com/photo/2014/04/03/00/38/spider-308942_1280.png");
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+    transform: scale(1.10) rotate(-10deg);
+    transform-origin: 50% 50%;
+}
+
