@@ -193,3 +193,21 @@ h3{  color: #d6a84f;
     transform-origin: 50% 50%;
 }
 
+.enlacecaye{
+    font-family:"Oswald", sans-serif;
+    font-size: 32px;
+    letter-spacing: 2px;
+    color: white;
+    background:
+    radial-gradient(ellipse at 15% 50%, 
+    rgba(36,132,243, 0.20), 
+    transparent 50%),
+
+    linear-gradient(120deg, #080b10, #101722 55%, #080b10)
+}
+
+.enlacecaye span{
+    color:rgb(36,132, 243) ;
+
+}
+
