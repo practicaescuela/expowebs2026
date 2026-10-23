@@ -121,8 +121,8 @@ h3{  color: #d6a84f;
 
 .iriwa{
     transition: 1s ease;
-    mask-image: url(https://dl.dropbox.com/s/2kih8ox9q2czjeg/pngfind.com-kawaii-transparent-png-621355.png);
-    mask-size: 220%;
+    mask-image: url(https://raw.githubusercontent.com/LikeAGimlet/page-related-stuff/refs/heads/main/others/mask-image.png);
+    mask-size: 280%;
     mask-repeat: no-repeat;
     mask-position: center;
 }
