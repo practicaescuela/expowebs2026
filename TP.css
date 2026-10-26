@@ -35,7 +35,7 @@ main{
 }
 
 .contenedorweb a{
-    background-color:white;
+ 
     border-radius:15px;
     box-shadow:0 4px 10px rgba(0,0,0,0.2);
     text-decoration:none;
@@ -46,7 +46,7 @@ main{
 }
 
 .contenedorweb a:hover{
-    background-color:#f0f0f0;
+
     box-shadow:5px 5px 15px rgba(0,0,0,0.35);
     transform:scale(1.05);
     transition-duration:0.5s;
