@@ -216,6 +216,12 @@ h3{  color: #d6a84f;
 .jair h3 {
   color: aliceblue;
 }
+.tainara{
+filter: contrast(150%);}
+.tai{
+  background-color: rgba(17, 1, 14, 0.7);
+  color: beige;
+}
 .jair span {
   color: #b8ff3b;
 }
