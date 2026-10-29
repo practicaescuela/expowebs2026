@@ -42,7 +42,7 @@ main{
     align-content:center;
     text-align:center;
     position:relative;
-
+    transition: all .4s linear;
 }
 
 .contenedorweb a:hover{
@@ -64,6 +64,10 @@ figure{
     object-fit: cover;
     border-radius: 15px;
     border: none;
+    transition: transform .6s ease;
+}
+img:hover{
+ transform: translate(10px, 10px);
 }
 figcaption{
     font-family:'MontserratBold',sans-serif;
