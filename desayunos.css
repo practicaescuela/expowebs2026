@@ -1,0 +1,207 @@
+@font-face {
+    font-family: aesthetic;
+    src: url(fuentes\ lindas/Childer.otf);
+}
+
+@font-face {
+    font-family: uwuzy;
+    src: url(fuentes\ lindas/HandiesTrial.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Trad:wght@100..400&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;}
+
+body{
+    min-height: 100vh;
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+}
+
+.superior{
+    background-color:rgba(218, 125, 140, 0.589);
+    height:200px;
+    display: flex;
+    align-items: flex-end;
+    position:relative;
+    overflow:hidden;
+}
+
+.ini{
+    background-image:url(img/fondini.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:80px;
+    width:160px;
+    font-size: 80px;
+    font-family: aesthetic;
+    margin:10px;
+    padding:5px;
+    border-radius:20px;
+    text-align: center;
+    color:rgb(84, 43, 85)
+}
+    
+button{
+    font-family: aesthetic;
+    font-size:24px;
+    height:60px;   
+    width:180px;
+    align-items: flex-end;
+    border-radius: 30px;
+    color:rgb(51, 56, 80);
+    padding:15px;
+    position:relative;
+    bottom: 20px;
+    background-image: linear-gradient(to right,rgb(207, 233, 243),rgb(250, 206, 213));
+    border:none;
+    transition: transform;
+    transition-duration: 0.3s;
+}
+
+img{
+    height:40px;
+    border:2px rgb(182, 98, 154) solid
+}
+
+.lindas{
+    display:flex;
+    position:absolute;
+    top:12px;
+    left: 0;
+    width: 100%;
+    max-width:100%;
+    list-style: none;
+    animation-name: mover;
+    animation-duration: 30s;
+    animation-direction: repeat;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;}
+
+.carru{
+    display:flex;
+    position:absolute;
+    top:12px;
+    left: 0px;
+    width: 100%;
+    max-width:100%;
+    list-style: none;
+    animation-name: mover;
+    animation-duration: 100s;
+    animation-direction: repeat;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;}
+
+@keyframes mover{   
+    from{transform: translateX(0);}
+
+    to{transform:translateX(-100%);}
+
+}
+
+button:hover{
+    transform:translateY(-6px);
+    background-image: linear-gradient(to left, rgb(173, 108, 173),rgb(84, 84, 180));
+    color:rgb(238, 219, 191)
+}
+
+nav{
+    display:flex;
+    gap:10px;
+    align-items: end;
+}
+
+.pics{
+    width:200px;
+    height:200px;
+    border:none;
+    position: relative;
+    top: 100px;
+    border-radius:50%;
+    border:2px rgb(214,197,164) solid;
+}
+
+article{
+    background-color:whitesmoke;
+    padding:10px;
+    border:3px rgb(214,197,164) solid;
+    font-family: Playwrite IT Trad;
+    margin:100px;
+    position:relative;
+    top:100px;
+    width:80vw;
+    border-radius: 30px;
+    color:rgb(156, 132, 95);
+    font-size: 20px;
+}
+
+h1{
+    font-family: uwuzy;
+    text-align:center;
+    position: relative;
+    top: 50px;
+    font-size:40px;
+    color:rgb(180, 59, 115);
+    text-shadow: 2px 2px  rgb(128, 39, 94);
+}
+
+ul{
+    list-style: none;
+}
+
+h3{
+    text-align: center;
+}
+
+.galery{
+    display:flex;
+    gap:20px;
+    justify-content: space-evenly;
+}
+
+#tostada{
+    display:none
+}
+
+#tostada:target{
+    display:block
+}
+#tortiespinaca{
+    display:none
+}
+
+#tortiespinaca:target{
+    display:block
+}
+
+#avenatostada{
+    display:none
+}
+
+#avenatostada:target{
+    display:block
+}
+
+#papaya{
+    display:none
+}
+
+#papaya:target{
+    display:block
+}
+
+a{
+    text-decoration: none;
+    color: rgb(84, 43, 85)
+}
+
+footer{
+    text-align: center;
+    position: relative;
+    top: 250px;
+    font-size: 20px;
+}
